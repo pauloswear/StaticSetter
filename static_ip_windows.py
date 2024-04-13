@@ -42,7 +42,8 @@ def configure_static_ip(interface_name):
         return
 
     # Solicitar o gateway
-    gateway = input("- Gateway: ")
+    # gateway = input("- Gateway: ")
+    gateway = "192.168.0.1"
 
     # Validar a entrada do gateway
     if not gateway:
